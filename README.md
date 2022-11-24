@@ -16,13 +16,13 @@
 
 **2. 重写DubboGenericServiceFactory.class以解决获得支持**
     
-      1.接入其他注册中心(例：zk)的dubbo接口时，接口元信息可能会掉到其他注册中心上
-      2.一直掉老IP/端口
+      1.解决接入其他注册中心(例：zk)的dubbo接口时，接口元信息可能会掉到其他注册中心上
+      2.解决一直掉老IP/端口
 
 
 **3. 重写ReferenceAnnotationBeanPostProcessor.class以解决获得支持**
     
-      1.升级dubbo-2.7.15后，自定义注解用不了
+      1.解决升级dubbo-2.7.15后，自定义注解用不了
 
 
 **4. 重写NetUtils.class以解决获得支持**
