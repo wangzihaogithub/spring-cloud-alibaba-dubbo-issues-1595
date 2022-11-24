@@ -1,7 +1,7 @@
 # spring-cloud-alibaba-dubbo-issues-1595 (解决一些项目中遇到的问题)
 
 
-#### 项目介绍
+#### 项目介绍（总共就4个Java文件）
 
 分享一些作者在用spring-cloud-alibaba-dubbo时项目中遇到的问题，
 通过将下面文件，路径原封不动复制到项目里，以达到覆盖源码的方式解决。
