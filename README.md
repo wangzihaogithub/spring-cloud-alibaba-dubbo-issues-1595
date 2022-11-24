@@ -7,7 +7,9 @@
 通过将下面文件，路径原封不动复制到项目里，以达到覆盖源码的方式解决。
 
 **1. 重写AbstractSpringCloudRegistry.class以解决获得支持**
-    
+
+      前提需要在yml里加 dubbo.cloud.registry-type: 'spring-cloud'
+
       1.服务挂不上No provider
       2.一直掉老IP/端口 
       3.允许提供者与消费者无序启动 
