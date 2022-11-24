@@ -3,7 +3,7 @@
 
 #### 项目介绍
 
-分享一些作者在用spring-cloud-alibaba时项目中遇到的问题，
+分享一些作者在用spring-cloud-alibaba-dubbo时项目中遇到的问题，
 通过将下面文件，路径原封不动复制到项目里，以达到覆盖源码的方式解决。
 
 **1. 重写AbstractSpringCloudRegistry.class以解决获得支持**
@@ -22,7 +22,7 @@
 
 **3. 重写ReferenceAnnotationBeanPostProcessor.class以解决获得支持**
     
-      1.升级spring-cloud-dubbo-2.2.7.RELEASE后，自定义注解用不了
+      1.升级dubbo-2.7.15后，自定义注解用不了
 
 
 **4. 重写NetUtils.class以解决获得支持**
