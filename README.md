@@ -8,7 +8,10 @@
 
 **1. 重写AbstractSpringCloudRegistry.class以解决获得支持**
 
-      前提需要在yml里加 dubbo.cloud.registry-type: 'spring-cloud'
+      同时需要在yml里加 
+        dubbo.cloud.registry-type: 'spring-cloud'
+        dubbo.consumer.reconnect: true
+        dubbo.consumer.parameters.send.reconnect: true
 
       1.服务挂不上No provider
       2.一直掉老IP/端口 
